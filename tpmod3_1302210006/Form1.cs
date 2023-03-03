@@ -19,7 +19,12 @@ namespace tpmod3_1302210006
 
         private void btnSubmit_MouseClick(object sender, MouseEventArgs e)
         {
-            this.btnOutput.Text = "Halo " + this.textBox.Text;
+            this.btnOutput.Text = this.textBox.Text;
+        }
+
+        private void textBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
