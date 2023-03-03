@@ -16,5 +16,10 @@ namespace tpmod3_1302210006
         {
             InitializeComponent();
         }
+
+        private void btnSubmit_MouseClick(object sender, MouseEventArgs e)
+        {
+            this.btnOutput.Text = "Halo " + this.textBox.Text;
+        }
     }
 }
